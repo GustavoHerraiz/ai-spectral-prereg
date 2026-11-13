@@ -1,0 +1,30 @@
+{
+ "script_sha256": "964640178b333711a469e6a250840e18b0459e69695890a33571863be2b2421b",
+ "extract_sha256": "202685db60e0c4b9049d78ab0871f57f64b34474de92c7dba2c7837a26d39972",
+ "proxy_sha256": "123cc8e38fefd184500158086fc881e825592c105ae30b033d3ff83a20496101",
+ "sample_sha256": "e9a99f5f69aa3f1329ef0453b3bc284c63e933c1f2ac572bd6c3914882619a8f",
+ "n_items": 905,
+ "arms": {
+  "mod8": [
+   false,
+   null
+  ],
+  "q75": [
+   false,
+   75
+  ],
+  "q92": [
+   false,
+   92
+  ],
+  "down": [
+   true,
+   null
+  ],
+  "down_q92": [
+   true,
+   92
+  ]
+ },
+ "down_short": 1024
+}

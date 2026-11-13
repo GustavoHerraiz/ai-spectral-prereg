@@ -1,0 +1,813 @@
+{
+ "geometria": {
+  "dalle2": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 1024.0,
+   "formato": {
+    "PNG": 100
+   }
+  },
+  "dalle3": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 1024.0,
+   "formato": {
+    "PNG": 100
+   }
+  },
+  "firefly": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 1792.0,
+   "formato": {
+    "JPEG": 100
+   }
+  },
+  "midjourney": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 896.0,
+   "formato": {
+    "PNG": 100
+   }
+  },
+  "real": {
+   "n": 205,
+   "frac_recorte_alineado_8": 0.8536585365853658,
+   "lado_menor_mediana": 3000.0,
+   "formato": {
+    "JPEG": 205
+   }
+  },
+  "sd1": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 512.0,
+   "formato": {
+    "PNG": 100
+   }
+  },
+  "stable-diffusion-2": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 832.0,
+   "formato": {
+    "PNG": 100
+   }
+  },
+  "stable-diffusion-xl": {
+   "n": 100,
+   "frac_recorte_alineado_8": 1.0,
+   "lado_menor_mediana": 896.0,
+   "formato": {
+    "PNG": 100
+   }
+  }
+ },
+ "firefly": {
+  "n": 100,
+  "frac_sobre_umbral": 0.56,
+  "k_distintas_ganadoras": 8,
+  "top_k": [
+   [
+    "dresden_Pentax_OptioA40",
+    53
+   ],
+   [
+    "modern_C15",
+    19
+   ],
+   [
+    "modern_C14",
+    19
+   ],
+   [
+    "vision_D11_Samsung_GalaxyS3",
+    4
+   ],
+   [
+    "vision_D03_Huawei_P9",
+    2
+   ],
+   [
+    "raise_nikon_d7000_flat",
+    1
+   ]
+  ],
+  "sobre_umbral_por_tipo_K": {
+   "dresden": 36,
+   "modern": 19,
+   "vision": 1
+  },
+  "max_ncc_percentiles_5_50_95": [
+   0.0094944,
+   0.016748,
+   0.02574845
+  ]
+ },
+ "mismo_formato": {
+  "n_real": 205,
+  "n_firefly": 100,
+  "lf_eq": {
+   "auc": 0.758,
+   "ic95": [
+    0.7073256097560975,
+    0.8100658536585367
+   ]
+  },
+  "res_spec": {
+   "auc": 0.9242926829268293,
+   "ic95": [
+    0.8978280487804878,
+    0.9509780487804878
+   ]
+  },
+  "bytes_px_tamano": {
+   "auc": 1.0,
+   "ic95": [
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "bins": {
+  "res_spec_IA_PNG": [
+   {
+    "freq": 0.4465022748731153,
+    "auc_ia_alta": 0.8658292682926829
+   },
+   {
+    "freq": 0.48149069082260043,
+    "auc_ia_alta": 0.8639308943089431
+   },
+   {
+    "freq": 0.4140563571982338,
+    "auc_ia_alta": 0.8615365853658536
+   },
+   {
+    "freq": 0.3839681824353327,
+    "auc_ia_alta": 0.8536747967479675
+   },
+   {
+    "freq": 0.3560664208136008,
+    "auc_ia_alta": 0.8389430894308944
+   },
+   {
+    "freq": 0.008190682121380952,
+    "auc_ia_alta": 0.8360243902439024
+   }
+  ],
+  "res_spec_firefly": [
+   {
+    "freq": 0.004479260493282705,
+    "auc_ia_alta": 0.667609756097561
+   },
+   {
+    "freq": 0.005616929547667152,
+    "auc_ia_alta": 0.654
+   },
+   {
+    "freq": 0.007043550512583476,
+    "auc_ia_alta": 0.644
+   },
+   {
+    "freq": 0.010270999976921878,
+    "auc_ia_alta": 0.6396829268292683
+   },
+   {
+    "freq": 0.006057078407890943,
+    "auc_ia_alta": 0.6343414634146342
+   },
+   {
+    "freq": 0.008190682121380952,
+    "auc_ia_alta": 0.6340487804878049
+   }
+  ],
+  "lf_eq_IA_PNG": [
+   {
+    "freq": 0.34484375,
+    "auc_ia_alta": 0.7257317073170731
+   },
+   {
+    "freq": 0.33453124999999995,
+    "auc_ia_alta": 0.6903536585365854
+   },
+   {
+    "freq": 0.32421875,
+    "auc_ia_alta": 0.6828130081300813
+   },
+   {
+    "freq": 0.16953124999999997,
+    "auc_ia_alta": 0.3205528455284553
+   },
+   {
+    "freq": 0.17984374999999997,
+    "auc_ia_alta": 0.3247723577235772
+   },
+   {
+    "freq": 0.19015624999999997,
+    "auc_ia_alta": 0.33035772357723575
+   }
+  ],
+  "lf_eq_firefly": [
+   {
+    "freq": 0.12828124999999999,
+    "auc_ia_alta": 0.3013170731707317
+   },
+   {
+    "freq": 0.13859375,
+    "auc_ia_alta": 0.30953658536585366
+   },
+   {
+    "freq": 0.14890624999999996,
+    "auc_ia_alta": 0.3157560975609756
+   },
+   {
+    "freq": 0.32421875,
+    "auc_ia_alta": 0.6784878048780488
+   },
+   {
+    "freq": 0.31390624999999994,
+    "auc_ia_alta": 0.6749268292682927
+   },
+   {
+    "freq": 0.34484375,
+    "auc_ia_alta": 0.6721219512195122
+   }
+  ]
+ },
+ "controles": {
+  "mod8": {
+   "n_real": 205,
+   "n_ia": 700,
+   "familias": [
+    "dalle2",
+    "dalle3",
+    "firefly",
+    "midjourney",
+    "sd1",
+    "stable-diffusion-2",
+    "stable-diffusion-xl"
+   ],
+   "lf_eq": {
+    "macro_auc": 0.7838885017421603,
+    "ic95": [
+     0.7601712543554008,
+     0.8046318815331011
+    ],
+    "por_familia": {
+     "dalle2": 0.797609756097561,
+     "dalle3": 0.8447317073170731,
+     "firefly": 0.6395609756097561,
+     "midjourney": 0.850390243902439,
+     "sd1": 0.8028780487804879,
+     "stable-diffusion-2": 0.7255609756097561,
+     "stable-diffusion-xl": 0.8264878048780487
+    },
+    "linea_base_bytes": 0.9933449477351916,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.04390243902439024,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.8128699186991869,
+     "ic95": [
+      0.7909294715447154,
+      0.8385282520325202
+     ],
+     "por_familia": {
+      "dalle2": 0.8027804878048781,
+      "dalle3": 0.8367317073170731,
+      "midjourney": 0.8659024390243902,
+      "sd1": 0.7994146341463415,
+      "stable-diffusion-2": 0.7378048780487805,
+      "stable-diffusion-xl": 0.8345853658536585
+     },
+     "linea_base_bytes": 1.0,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "apoyada",
+    "etiqueta": "principal",
+    "mismo_formato_firefly": {
+     "auc": 0.7579512195121951,
+     "ic95": [
+      0.6993548780487805,
+      0.813359756097561
+     ]
+    }
+   },
+   "res_spec": {
+    "macro_auc": 0.9004878048780487,
+    "ic95": [
+     0.8840341463414634,
+     0.9136853658536584
+    ],
+    "por_familia": {
+     "dalle2": 0.9329756097560976,
+     "dalle3": 0.973170731707317,
+     "firefly": 0.5985853658536585,
+     "midjourney": 0.9655609756097561,
+     "sd1": 0.972390243902439,
+     "stable-diffusion-2": 0.9121951219512195,
+     "stable-diffusion-xl": 0.9485365853658536
+    },
+    "linea_base_bytes": 0.9933449477351916,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.07804878048780488,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.9612764227642275,
+     "ic95": [
+      0.9483770325203252,
+      0.969919512195122
+     ],
+     "por_familia": {
+      "dalle2": 0.9511219512195122,
+      "dalle3": 0.9834146341463414,
+      "midjourney": 0.9705365853658536,
+      "sd1": 0.9750243902439024,
+      "stable-diffusion-2": 0.9275121951219513,
+      "stable-diffusion-xl": 0.9600487804878048
+     },
+     "linea_base_bytes": 1.0,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "indeterminada",
+    "etiqueta": "secundario exploratorio (sin igualar procesado)",
+    "mismo_formato_firefly": {
+     "auc": 0.9241951219512196,
+     "ic95": [
+      0.8979231707317074,
+      0.9508231707317073
+     ]
+    }
+   }
+  },
+  "q75": {
+   "n_real": 205,
+   "n_ia": 700,
+   "familias": [
+    "dalle2",
+    "dalle3",
+    "firefly",
+    "midjourney",
+    "sd1",
+    "stable-diffusion-2",
+    "stable-diffusion-xl"
+   ],
+   "lf_eq": {
+    "macro_auc": 0.8770592334494774,
+    "ic95": [
+     0.8594383275261324,
+     0.8927135888501743
+    ],
+    "por_familia": {
+     "dalle2": 0.896,
+     "dalle3": 0.9380975609756097,
+     "firefly": 0.6937073170731707,
+     "midjourney": 0.9066829268292683,
+     "sd1": 0.9169756097560976,
+     "stable-diffusion-2": 0.870390243902439,
+     "stable-diffusion-xl": 0.9175609756097561
+    },
+    "linea_base_bytes": 0.7329616724738675,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.04878048780487805,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.9082276422764228,
+     "ic95": [
+      0.8902111788617887,
+      0.9213573170731707
+     ],
+     "por_familia": {
+      "dalle2": 0.8954146341463415,
+      "dalle3": 0.932829268292683,
+      "midjourney": 0.9151707317073171,
+      "sd1": 0.9128780487804878,
+      "stable-diffusion-2": 0.872390243902439,
+      "stable-diffusion-xl": 0.9206829268292683
+     },
+     "linea_base_bytes": 0.76569918699187,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "apoyada",
+    "etiqueta": "principal",
+    "mismo_formato_firefly": {
+     "auc": 0.7318536585365853,
+     "ic95": [
+      0.6596231707317074,
+      0.799140243902439
+     ]
+    }
+   },
+   "res_spec": {
+    "macro_auc": 0.9160696864111498,
+    "ic95": [
+     0.8988928571428572,
+     0.9279865853658535
+    ],
+    "por_familia": {
+     "dalle2": 0.9453658536585365,
+     "dalle3": 0.978780487804878,
+     "firefly": 0.6804878048780488,
+     "midjourney": 0.9569268292682926,
+     "sd1": 0.9718536585365853,
+     "stable-diffusion-2": 0.9203414634146342,
+     "stable-diffusion-xl": 0.9587317073170731
+    },
+    "linea_base_bytes": 0.7329616724738675,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.06341463414634146,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.9584471544715446,
+     "ic95": [
+      0.9470247967479675,
+      0.9666140243902439
+     ],
+     "por_familia": {
+      "dalle2": 0.9282439024390244,
+      "dalle3": 0.9837560975609756,
+      "midjourney": 0.9653170731707317,
+      "sd1": 0.9762439024390244,
+      "stable-diffusion-2": 0.9326829268292683,
+      "stable-diffusion-xl": 0.9644390243902439
+     },
+     "linea_base_bytes": 0.76569918699187,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "apoyada",
+    "etiqueta": "secundario exploratorio (sin igualar procesado)",
+    "mismo_formato_firefly": {
+     "auc": 0.8441463414634146,
+     "ic95": [
+      0.8034353658536586,
+      0.8861097560975609
+     ]
+    }
+   }
+  },
+  "q92": {
+   "n_real": 205,
+   "n_ia": 700,
+   "familias": [
+    "dalle2",
+    "dalle3",
+    "firefly",
+    "midjourney",
+    "sd1",
+    "stable-diffusion-2",
+    "stable-diffusion-xl"
+   ],
+   "lf_eq": {
+    "macro_auc": 0.6846132404181186,
+    "ic95": [
+     0.6572984320557492,
+     0.7133177700348431
+    ],
+    "por_familia": {
+     "dalle2": 0.7157560975609756,
+     "dalle3": 0.7478536585365854,
+     "firefly": 0.5161463414634146,
+     "midjourney": 0.7652682926829268,
+     "sd1": 0.6789268292682927,
+     "stable-diffusion-2": 0.6201463414634146,
+     "stable-diffusion-xl": 0.7481951219512195
+    },
+    "linea_base_bytes": 0.731616724738676,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.03902439024390244,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.7164959349593496,
+     "ic95": [
+      0.6864404471544716,
+      0.74325
+     ],
+     "por_familia": {
+      "dalle2": 0.7085365853658536,
+      "dalle3": 0.7333658536585366,
+      "midjourney": 0.7939512195121952,
+      "sd1": 0.6684878048780488,
+      "stable-diffusion-2": 0.6405853658536586,
+      "stable-diffusion-xl": 0.7540487804878049
+     },
+     "linea_base_bytes": 0.7574634146341465,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "indeterminada",
+    "etiqueta": "principal",
+    "mismo_formato_firefly": {
+     "auc": 0.7319512195121951,
+     "ic95": [
+      0.673779268292683,
+      0.7870548780487805
+     ]
+    }
+   },
+   "res_spec": {
+    "macro_auc": 0.897567944250871,
+    "ic95": [
+     0.8784214285714286,
+     0.911154006968641
+    ],
+    "por_familia": {
+     "dalle2": 0.8809756097560976,
+     "dalle3": 0.9636097560975609,
+     "firefly": 0.6889756097560975,
+     "midjourney": 0.9613658536585366,
+     "sd1": 0.9678536585365853,
+     "stable-diffusion-2": 0.8816585365853659,
+     "stable-diffusion-xl": 0.9385365853658536
+    },
+    "linea_base_bytes": 0.731616724738676,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.11219512195121951,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.938528455284553,
+     "ic95": [
+      0.9233319105691056,
+      0.9500418699186991
+     ],
+     "por_familia": {
+      "dalle2": 0.8870243902439024,
+      "dalle3": 0.974,
+      "midjourney": 0.9604390243902439,
+      "sd1": 0.9681463414634146,
+      "stable-diffusion-2": 0.8957073170731708,
+      "stable-diffusion-xl": 0.9458536585365853
+     },
+     "linea_base_bytes": 0.7574634146341465,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "indeterminada",
+    "etiqueta": "secundario exploratorio (sin igualar procesado)",
+    "mismo_formato_firefly": {
+     "auc": 0.9271219512195122,
+     "ic95": [
+      0.8991451219512195,
+      0.9540963414634146
+     ]
+    }
+   }
+  },
+  "down": {
+   "n_real": 205,
+   "n_ia": 700,
+   "familias": [
+    "dalle2",
+    "dalle3",
+    "firefly",
+    "midjourney",
+    "sd1",
+    "stable-diffusion-2",
+    "stable-diffusion-xl"
+   ],
+   "lf_eq": {
+    "macro_auc": 0.5812961672473868,
+    "ic95": [
+     0.5575925087108015,
+     0.6065660278745645
+    ],
+    "por_familia": {
+     "dalle2": 0.6392682926829268,
+     "dalle3": 0.6144390243902439,
+     "firefly": 0.38902439024390245,
+     "midjourney": 0.6884878048780487,
+     "sd1": 0.5523902439024391,
+     "stable-diffusion-2": 0.5261951219512195,
+     "stable-diffusion-xl": 0.6592682926829269
+    },
+    "linea_base_bytes": 0.9933449477351916,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.03902439024390244,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.6408617886178862,
+     "ic95": [
+      0.6154215447154472,
+      0.6654701219512195
+     ],
+     "por_familia": {
+      "dalle2": 0.657609756097561,
+      "dalle3": 0.6290731707317073,
+      "midjourney": 0.7495609756097561,
+      "sd1": 0.5659512195121951,
+      "stable-diffusion-2": 0.5644390243902438,
+      "stable-diffusion-xl": 0.6785365853658537
+     },
+     "linea_base_bytes": 1.0,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "no apoyada",
+    "etiqueta": "principal",
+    "mismo_formato_firefly": {
+     "auc": 0.6682439024390244,
+     "ic95": [
+      0.5915378048780487,
+      0.7225231707317072
+     ]
+    }
+   },
+   "res_spec": {
+    "macro_auc": 0.7744738675958188,
+    "ic95": [
+     0.7526104529616725,
+     0.7942397212543554
+    ],
+    "por_familia": {
+     "dalle2": 0.7219024390243902,
+     "dalle3": 0.7740975609756098,
+     "firefly": 0.5050731707317073,
+     "midjourney": 0.9110731707317073,
+     "sd1": 0.8463414634146341,
+     "stable-diffusion-2": 0.8579024390243902,
+     "stable-diffusion-xl": 0.8049268292682927
+    },
+    "linea_base_bytes": 0.9933449477351916,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.06829268292682927,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.8039918699186993,
+     "ic95": [
+      0.7818290650406505,
+      0.8230095528455285
+     ],
+     "por_familia": {
+      "dalle2": 0.7071219512195122,
+      "dalle3": 0.7879024390243903,
+      "midjourney": 0.9110731707317073,
+      "sd1": 0.8049756097560976,
+      "stable-diffusion-2": 0.8026829268292683,
+      "stable-diffusion-xl": 0.8101951219512196
+     },
+     "linea_base_bytes": 1.0,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "indeterminada",
+    "etiqueta": "secundario exploratorio (sin igualar procesado)",
+    "mismo_formato_firefly": {
+     "auc": 0.9578536585365853,
+     "ic95": [
+      0.9262914634146342,
+      0.9813987804878048
+     ]
+    }
+   }
+  },
+  "down_q92": {
+   "n_real": 205,
+   "n_ia": 700,
+   "familias": [
+    "dalle2",
+    "dalle3",
+    "firefly",
+    "midjourney",
+    "sd1",
+    "stable-diffusion-2",
+    "stable-diffusion-xl"
+   ],
+   "lf_eq": {
+    "macro_auc": 0.5806620209059233,
+    "ic95": [
+     0.5578162020905922,
+     0.6040580139372821
+    ],
+    "por_familia": {
+     "dalle2": 0.6669268292682927,
+     "dalle3": 0.5993170731707317,
+     "firefly": 0.3534634146341463,
+     "midjourney": 0.698,
+     "sd1": 0.5441463414634147,
+     "stable-diffusion-2": 0.5345853658536586,
+     "stable-diffusion-xl": 0.6681951219512196
+    },
+    "linea_base_bytes": 0.6458397212543554,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.06341463414634146,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.647479674796748,
+     "ic95": [
+      0.6250136178861789,
+      0.6745426829268292
+     ],
+     "por_familia": {
+      "dalle2": 0.6780487804878049,
+      "dalle3": 0.6162926829268293,
+      "midjourney": 0.7551219512195122,
+      "sd1": 0.5598536585365854,
+      "stable-diffusion-2": 0.582780487804878,
+      "stable-diffusion-xl": 0.692780487804878
+     },
+     "linea_base_bytes": 0.671560975609756,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "no apoyada",
+    "etiqueta": "principal",
+    "mismo_formato_firefly": {
+     "auc": 0.6591219512195122,
+     "ic95": [
+      0.588390243902439,
+      0.7133036585365853
+     ]
+    }
+   },
+   "res_spec": {
+    "macro_auc": 0.8153519163763067,
+    "ic95": [
+     0.7950174216027874,
+     0.8324914634146342
+    ],
+    "por_familia": {
+     "dalle2": 0.7122926829268292,
+     "dalle3": 0.798829268292683,
+     "firefly": 0.7211219512195122,
+     "midjourney": 0.9380487804878048,
+     "sd1": 0.836,
+     "stable-diffusion-2": 0.8432682926829268,
+     "stable-diffusion-xl": 0.8579024390243902
+    },
+    "linea_base_bytes": 0.6458397212543554,
+    "permutacion_media": null,
+    "permutacion_sd": null,
+    "identificacion_dispositivo": {
+     "exactitud": 0.06341463414634146,
+     "azar": 0.024390243902439025
+    },
+    "sin_firefly": {
+     "macro_auc": 0.8179105691056909,
+     "ic95": [
+      0.7977658536585367,
+      0.8362849593495935
+     ],
+     "por_familia": {
+      "dalle2": 0.7093170731707317,
+      "dalle3": 0.8062926829268293,
+      "midjourney": 0.9305365853658537,
+      "sd1": 0.8037560975609757,
+      "stable-diffusion-2": 0.8032682926829269,
+      "stable-diffusion-xl": 0.8542926829268292
+     },
+     "linea_base_bytes": 0.671560975609756,
+     "permutacion_media": null,
+     "permutacion_sd": null
+    },
+    "veredicto": "apoyada",
+    "etiqueta": "secundario exploratorio (sin igualar procesado)",
+    "mismo_formato_firefly": {
+     "auc": 0.954780487804878,
+     "ic95": [
+      0.9260975609756098,
+      0.9768829268292682
+     ]
+    }
+   }
+  },
+  "veredicto": {
+   "lf_eq": "parcial",
+   "lf_eq_igualacion_efectiva": true,
+   "res_spec": "parcial",
+   "res_spec_igualacion_efectiva": true
+  }
+ }
+}

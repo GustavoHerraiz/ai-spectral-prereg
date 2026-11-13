@@ -1,0 +1,92 @@
+[
+  {
+    "name": "real_raise1k",
+    "label": "real",
+    "family": "real",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/Raise-1k/real_RAISE_1k",
+    "glob": "*.*",
+    "origin": "RAISE-1k via real_RAISE_1k.zip (grip.unina.it); no comercial",
+    "native_generation": null
+  },
+  {
+    "name": "dalle2",
+    "label": "fake",
+    "family": "dalle2",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/dalle2",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "dalle3",
+    "label": "fake",
+    "family": "dalle3",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/dalle3",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "firefly",
+    "label": "fake",
+    "family": "firefly",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/firefly",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "glide",
+    "label": "fake",
+    "family": "glide",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/glide",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "midjourney-v5",
+    "label": "fake",
+    "family": "midjourney",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/midjourney-v5",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "stable-diffusion-1-3",
+    "label": "fake",
+    "family": "sd1",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/stable-diffusion-1-3",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "stable-diffusion-1-4",
+    "label": "fake",
+    "family": "sd1",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/stable-diffusion-1-4",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "stable-diffusion-2",
+    "label": "fake",
+    "family": "sd2",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/stable-diffusion-2",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  },
+  {
+    "name": "stable-diffusion-xl",
+    "label": "fake",
+    "family": "sdxl",
+    "root": "/home/gustavo/dataset_test/synthbuster/synthbuster_data/synthbuster/stable-diffusion-xl",
+    "glob": "*.png",
+    "origin": "Synthbuster (Bammey 2023), Zenodo 10.5281/zenodo.10066460",
+    "native_generation": true
+  }
+]

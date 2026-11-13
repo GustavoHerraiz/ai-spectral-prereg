@@ -1,0 +1,217 @@
+{
+ "exclusiones": {
+  "X0_ninguna": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.906,
+     "ic95": [
+      0.8508777777777778,
+      0.9505583333333334
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.8925853658536586,
+     "ic95": [
+      0.847120731707317,
+      0.9301646341463415
+     ]
+    }
+   },
+   "media": 0.8992926829268293,
+   "min_ic_inf": 0.847120731707317,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 700,
+   "excluye": []
+  },
+  "X1_sin_sd2": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.9016666666666666,
+     "ic95": [
+      0.8447194444444444,
+      0.947225
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.8962926829268293,
+     "ic95": [
+      0.8497865853658536,
+      0.9330353658536585
+     ]
+    }
+   },
+   "media": 0.898979674796748,
+   "min_ic_inf": 0.8447194444444444,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 600,
+   "excluye": [
+    "stable-diffusion-2"
+   ]
+  },
+  "X2_sin_sd1_sd2": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.9114444444444444,
+     "ic95": [
+      0.8555527777777777,
+      0.954225
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.904829268292683,
+     "ic95": [
+      0.8628768292682927,
+      0.9385865853658536
+     ]
+    }
+   },
+   "media": 0.9081368563685637,
+   "min_ic_inf": 0.8555527777777777,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 500,
+   "excluye": [
+    "sd1",
+    "stable-diffusion-2"
+   ]
+  },
+  "X3_sin_linaje_sd": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.9196666666666666,
+     "ic95": [
+      0.8672111111111112,
+      0.95845
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.917609756097561,
+     "ic95": [
+      0.8796024390243903,
+      0.9497585365853658
+     ]
+    }
+   },
+   "media": 0.9186382113821139,
+   "min_ic_inf": 0.8672111111111112,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 400,
+   "excluye": [
+    "sd1",
+    "stable-diffusion-2",
+    "stable-diffusion-xl"
+   ]
+  }
+ },
+ "controles": {
+  "dalle3_firefly_midjourney": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.9055555555555556,
+     "ic95": [
+      0.8539972222222222,
+      0.9485583333333334
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.879219512195122,
+     "ic95": [
+      0.83,
+      0.9199073170731707
+     ]
+    }
+   },
+   "media": 0.8923875338753388,
+   "min_ic_inf": 0.83,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 400,
+   "excluye": [
+    "dalle3",
+    "firefly",
+    "midjourney"
+   ]
+  },
+  "dalle2_firefly_midjourney": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.8952222222222223,
+     "ic95": [
+      0.8414416666666666,
+      0.940225
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.8726341463414634,
+     "ic95": [
+      0.8214499999999999,
+      0.9164414634146342
+     ]
+    }
+   },
+   "media": 0.8839281842818428,
+   "min_ic_inf": 0.8214499999999999,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 400,
+   "excluye": [
+    "dalle2",
+    "firefly",
+    "midjourney"
+   ]
+  },
+  "dalle2_dalle3_midjourney": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.9164444444444444,
+     "ic95": [
+      0.8676583333333333,
+      0.9568944444444445
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.8911219512195122,
+     "ic95": [
+      0.8417,
+      0.9307329268292683
+     ]
+    }
+   },
+   "media": 0.9037831978319784,
+   "min_ic_inf": 0.8417,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 400,
+   "excluye": [
+    "dalle2",
+    "dalle3",
+    "midjourney"
+   ]
+  },
+  "dalle2_dalle3_firefly": {
+   "pares": {
+    "run3->dresden": {
+     "auc": 0.8978888888888888,
+     "ic95": [
+      0.8401055555555555,
+      0.944
+     ]
+    },
+    "dresden->run3": {
+     "auc": 0.872780487804878,
+     "ic95": [
+      0.8236048780487805,
+      0.91495
+     ]
+    }
+   },
+   "media": 0.8853346883468834,
+   "min_ic_inf": 0.8236048780487805,
+   "veredicto_base": "aguanta",
+   "n_syn_entrenamiento": 400,
+   "excluye": [
+    "dalle2",
+    "dalle3",
+    "firefly"
+   ]
+  }
+ },
+ "media_controles": 0.8913584010840109,
+ "veredicto": "no explicada por linaje SD"
+}

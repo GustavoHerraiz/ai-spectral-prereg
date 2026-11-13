@@ -1,0 +1,127 @@
+{
+ "fecha_utc": "2026-11-13T16:45:31.977450+00:00",
+ "commit_codigo": "d7d7d516bf18fa792846af8f943ea5095a68a240",
+ "ficheros": [
+  {
+   "file": "h1-extract-run1/h1-analysis.json",
+   "bytes": 9318
+  },
+  {
+   "file": "h1-extract-run1/h1-features.jsonl",
+   "bytes": 2332446
+  },
+  {
+   "file": "h1-extract-run1/manifest.json",
+   "bytes": 10552
+  },
+  {
+   "file": "h1-controls-run1/h1-controls.jsonl",
+   "bytes": 4629915
+  },
+  {
+   "file": "h1-controls-run1/h1-post.json",
+   "bytes": 18895
+  },
+  {
+   "file": "h1-controls-run1/manifest.json",
+   "bytes": 567
+  },
+  {
+   "file": "h1-loco-run1/h1-loco-feats.jsonl",
+   "bytes": 1075160
+  },
+  {
+   "file": "h1-loco-run1/h1-loco.json",
+   "bytes": 18120
+  },
+  {
+   "file": "h1-native-run1/h1-native-dresden.jsonl",
+   "bytes": 460354
+  },
+  {
+   "file": "h1-native-run1/h1-native.json",
+   "bytes": 8141
+  },
+  {
+   "file": "h1-scale-run1/h1-scale-feats.jsonl",
+   "bytes": 1646091
+  },
+  {
+   "file": "h1-scale-run1/h1-scale.json",
+   "bytes": 12636
+  },
+  {
+   "file": "h1-resample-run1/h1-resample-feats.jsonl",
+   "bytes": 5071172
+  },
+  {
+   "file": "h1-resample-run1/h1-resample.json",
+   "bytes": 13229
+  },
+  {
+   "file": "h1-owngen-run1/h1-owngen-feats.jsonl",
+   "bytes": 638085
+  },
+  {
+   "file": "h1-owngen-run1/h1-owngen.json",
+   "bytes": 2795
+  },
+  {
+   "file": "h1-owngen-run1/owngen-manifest.jsonl",
+   "bytes": 39275
+  },
+  {
+   "file": "h1-owngen-run1/owngen-tar.sha256",
+   "bytes": 103
+  },
+  {
+   "file": "h1-chain-run1/h1-chain-feats.jsonl",
+   "bytes": 310580
+  },
+  {
+   "file": "h1-chain-run1/h1-chain.json",
+   "bytes": 2842
+  },
+  {
+   "file": "h1r-explore-run1/h1-chain.json",
+   "bytes": 22178
+  },
+  {
+   "file": "h1r-explore-run1/h1r-explore-feats.jsonl",
+   "bytes": 2567290
+  },
+  {
+   "file": "h1r-explore-run1/h1r-explore-folders.json",
+   "bytes": 602
+  },
+  {
+   "file": "h2-e0-run1/h2-sdfamily.json",
+   "bytes": 4073
+  },
+  {
+   "file": "h2-e1-run1/feats-e1/h1-owngen-feats.jsonl",
+   "bytes": 191332
+  },
+  {
+   "file": "h2-e1-run1/feats-s1/h1-owngen-feats.jsonl",
+   "bytes": 191835
+  },
+  {
+   "file": "h2-e1-run1/feats-s4/h1-owngen-feats.jsonl",
+   "bytes": 190799
+  },
+  {
+   "file": "h2-e1-run1/h2-steps.json",
+   "bytes": 1647
+  },
+  {
+   "file": "h2-e2-run1/h2-descriptors.json",
+   "bytes": 688
+  },
+  {
+   "file": "h1-vae-auc.json",
+   "bytes": 2882
+  }
+ ],
+ "omitidos_o_ausentes": []
+}

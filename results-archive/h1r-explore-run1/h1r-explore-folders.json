@@ -1,0 +1,42 @@
+{
+ "ai_flux_schnell": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_gpt_image_512": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_kandinsky22": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_nano_banana_512": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_nano_banana_gen_512": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_pixart_sigma": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_sdxl": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ },
+ "ai_wuerstchen": {
+  "png": 50,
+  "512x512": 50,
+  "otro_tamano": 0
+ }
+}

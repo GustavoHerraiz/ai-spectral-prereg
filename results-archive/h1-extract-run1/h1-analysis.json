@@ -1,0 +1,490 @@
+{
+ "mapeo": {
+  "D03_Huawei_P9": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D03_Huawei_P9"
+   ]
+  },
+  "D10_Apple_iPhone4s": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D10_Apple_iPhone4s"
+   ]
+  },
+  "D24_Xiaomi_RedmiNote3": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D24_Xiaomi_RedmiNote3"
+   ]
+  },
+  "V2111": {
+   "estado": "ausente",
+   "k": []
+  },
+  "dresden_Agfa_DC-733s": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Agfa_DC-733s"
+   ]
+  },
+  "dresden_Agfa_DC-830i_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Agfa_DC-830i_0"
+   ]
+  },
+  "dresden_Agfa_Sensor505-x_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Agfa_Sensor505-x_0"
+   ]
+  },
+  "dresden_Agfa_Sensor530s_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Agfa_Sensor530s_0"
+   ]
+  },
+  "dresden_Canon_Ixus55_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Canon_Ixus55_0"
+   ]
+  },
+  "dresden_Canon_Ixus70_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Canon_Ixus70_0"
+   ]
+  },
+  "dresden_Casio_EX_Z150_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Casio_EX_Z150_0"
+   ]
+  },
+  "dresden_Kodak_M1063_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Kodak_M1063_0"
+   ]
+  },
+  "dresden_Nikon_CoolPixS710_0": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Nikon_CoolPixS710_0"
+   ]
+  },
+  "dresden_Nikon_D200": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Nikon_D200"
+   ]
+  },
+  "dresden_Nikon_D70": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Nikon_D70"
+   ]
+  },
+  "dresden_Olympus_mju_1050SW": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Olympus_mju_1050SW"
+   ]
+  },
+  "dresden_Panasonic_DMC_FZ50": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Panasonic_DMC_FZ50"
+   ]
+  },
+  "dresden_Pentax_OptioW60": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Pentax_OptioW60"
+   ]
+  },
+  "dresden_Praktica_DCZ59": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Praktica_DCZ59"
+   ]
+  },
+  "dresden_Ricoh_GX100": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Ricoh_GX100"
+   ]
+  },
+  "dresden_Samsung_L74wide": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Samsung_L74wide"
+   ]
+  },
+  "dresden_Samsung_NV15": {
+   "estado": "mapeada",
+   "k": [
+    "dresden_Samsung_NV15"
+   ]
+  },
+  "modern_C05": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C05"
+   ]
+  },
+  "modern_C06": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C06"
+   ]
+  },
+  "modern_C07": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C07"
+   ]
+  },
+  "modern_C08": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C08"
+   ]
+  },
+  "modern_C09": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C09"
+   ]
+  },
+  "modern_C10": {
+   "estado": "ausente",
+   "k": []
+  },
+  "modern_C11": {
+   "estado": "ausente",
+   "k": []
+  },
+  "modern_C12": {
+   "estado": "ausente",
+   "k": []
+  },
+  "modern_C13": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C13"
+   ]
+  },
+  "modern_C14": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C14"
+   ]
+  },
+  "modern_C15": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C15"
+   ]
+  },
+  "modern_C16": {
+   "estado": "ausente",
+   "k": []
+  },
+  "modern_C17": {
+   "estado": "ausente",
+   "k": []
+  },
+  "modern_C18": {
+   "estado": "ausente",
+   "k": []
+  },
+  "modern_C20": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C20"
+   ]
+  },
+  "modern_C21": {
+   "estado": "mapeada",
+   "k": [
+    "modern_C21"
+   ]
+  },
+  "vision_D02_Apple_iPhone4s": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D02_Apple_iPhone4s"
+   ]
+  },
+  "vision_D04_LG_D290": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D04_LG_D290"
+   ]
+  },
+  "vision_D05_Apple_iPhone5c": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D05_Apple_iPhone5c"
+   ]
+  },
+  "vision_D06_Apple_iPhone6": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D06_Apple_iPhone6"
+   ]
+  },
+  "vision_D07_Lenovo_P70A": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D07_Lenovo_P70A"
+   ]
+  },
+  "vision_D11_Samsung_GalaxyS3": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D11_Samsung_GalaxyS3"
+   ]
+  },
+  "vision_D12_Sony_XperiaZ1Compact": {
+   "estado": "ambigua",
+   "k": [
+    "public_subset_D12_I_t",
+    "vision_D12_Sony_XperiaZ1Compact"
+   ]
+  },
+  "vision_D14_Apple_iPhone5c": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D14_Apple_iPhone5c"
+   ]
+  },
+  "vision_D15_Apple_iPhone6": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D15_Apple_iPhone6"
+   ]
+  },
+  "vision_D16_Huawei_P9Lite": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D16_Huawei_P9Lite"
+   ]
+  },
+  "vision_D18_Apple_iPhone5c": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D18_Apple_iPhone5c"
+   ]
+  },
+  "vision_D19_Apple_iPhone6Plus": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D19_Apple_iPhone6Plus"
+   ]
+  },
+  "vision_D21_Wiko_Ridge4G": {
+   "estado": "ambigua",
+   "k": [
+    "public_subset_D21_I_t",
+    "vision_D21_Wiko_Ridge4G"
+   ]
+  },
+  "vision_D25_OnePlus_A3000": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D25_OneplusA3000"
+   ]
+  },
+  "vision_D27_Samsung_GalaxyS5": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D27_Samsung_GalaxyS5"
+   ]
+  },
+  "vision_D28_Huawei_P8": {
+   "estado": "ausente",
+   "k": []
+  },
+  "vision_D29_Apple_iPhone5": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D29_Apple_iPhone5"
+   ]
+  },
+  "vision_D30_Huawei_Honor5c": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D30_Huawei_Honor5c"
+   ]
+  },
+  "vision_D32_OnePlus_A3003": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D32_OneplusA3003"
+   ]
+  },
+  "vision_D33_Huawei_Ascend": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D33_HuaweiAscend"
+   ]
+  },
+  "vision_D34_Apple_iPhone5": {
+   "estado": "mapeada",
+   "k": [
+    "vision_D34_Apple_iPhone5"
+   ]
+  }
+ },
+ "prnu": {
+  "P0": {
+   "n_reales_con_K": 155,
+   "auc_propia_vs_ajenas": 0.9424867325702393,
+   "top1": 0.7806451612903226,
+   "valido": true
+  },
+  "P1": {
+   "ai_frac_sobre_umbral": 0.08,
+   "ai_mediana_max": 0.005596500000000001,
+   "n_ai": 700,
+   "real_con_K": {
+    "n": 155,
+    "auc_real_alto_vs_ia": 0.930889400921659,
+    "ic95": [
+     0.9049854838709678,
+     0.9535760368663595
+    ],
+    "frac_sobre_umbral": 0.7548387096774194,
+    "mediana_max": 0.027892
+   },
+   "real_camara_ausente": {
+    "n": 40,
+    "auc_real_alto_vs_ia": 0.5871607142857143,
+    "ic95": [
+     0.49368660714285717,
+     0.6751508928571428
+    ],
+    "frac_sobre_umbral": 0.125,
+    "mediana_max": 0.0061925
+   },
+   "ia_por_familia_frac_umbral": {
+    "dalle2": 0.0,
+    "dalle3": 0.0,
+    "firefly": 0.56,
+    "midjourney": 0.0,
+    "sd1": 0.0,
+    "stable-diffusion-2": 0.0,
+    "stable-diffusion-xl": 0.0
+   },
+   "sensibilidad_dresden": {
+    "n": 90,
+    "auc_real_alto_vs_ia": 0.8228253968253968,
+    "frac_sobre_umbral": 0.4222222222222222
+   }
+  }
+ },
+ "l2": {
+  "n_real": 205,
+  "n_ia": 700,
+  "familias": [
+   "dalle2",
+   "dalle3",
+   "firefly",
+   "midjourney",
+   "sd1",
+   "stable-diffusion-2",
+   "stable-diffusion-xl"
+  ],
+  "lf_eq": {
+   "macro_auc": 0.7987874564459929,
+   "ic95": [
+    0.7758001742160278,
+    0.8210881533101044
+   ],
+   "por_familia": {
+    "dalle2": 0.8135121951219512,
+    "dalle3": 0.8604390243902439,
+    "firefly": 0.6567804878048781,
+    "midjourney": 0.863609756097561,
+    "sd1": 0.8186341463414634,
+    "stable-diffusion-2": 0.7381463414634146,
+    "stable-diffusion-xl": 0.840390243902439
+   },
+   "linea_base_bytes": 0.9933449477351916,
+   "permutacion_media": 0.5004749128919861,
+   "permutacion_sd": 0.02207932854273996,
+   "identificacion_dispositivo": {
+    "exactitud": 0.05853658536585366,
+    "azar": 0.024390243902439025
+   },
+   "sin_firefly": {
+    "macro_auc": 0.8271544715447154,
+    "ic95": [
+     0.8050274390243902,
+     0.8453810975609756
+    ],
+    "por_familia": {
+     "dalle2": 0.8179512195121951,
+     "dalle3": 0.8538536585365853,
+     "midjourney": 0.8760487804878049,
+     "sd1": 0.8153170731707317,
+     "stable-diffusion-2": 0.750390243902439,
+     "stable-diffusion-xl": 0.8493658536585366
+    },
+    "linea_base_bytes": 1.0,
+    "permutacion_media": null,
+    "permutacion_sd": null
+   },
+   "veredicto": "apoyada",
+   "etiqueta": "principal"
+  },
+  "res_spec": {
+   "macro_auc": 0.9006062717770035,
+   "ic95": [
+    0.8849264808362369,
+    0.9152196864111498
+   ],
+   "por_familia": {
+    "dalle2": 0.933219512195122,
+    "dalle3": 0.9733170731707317,
+    "firefly": 0.5986341463414634,
+    "midjourney": 0.9655121951219512,
+    "sd1": 0.9724390243902439,
+    "stable-diffusion-2": 0.9124390243902439,
+    "stable-diffusion-xl": 0.9486829268292682
+   },
+   "linea_base_bytes": 0.9933449477351916,
+   "permutacion_media": 0.49507142857142866,
+   "permutacion_sd": 0.02244675228615049,
+   "identificacion_dispositivo": {
+    "exactitud": 0.07804878048780488,
+    "azar": 0.024390243902439025
+   },
+   "sin_firefly": {
+    "macro_auc": 0.9614146341463415,
+    "ic95": [
+     0.9507136178861789,
+     0.9706455284552845
+    ],
+    "por_familia": {
+     "dalle2": 0.9514146341463414,
+     "dalle3": 0.9833170731707317,
+     "midjourney": 0.9707317073170731,
+     "sd1": 0.9751219512195122,
+     "stable-diffusion-2": 0.9278048780487805,
+     "stable-diffusion-xl": 0.9600975609756097
+    },
+    "linea_base_bytes": 1.0,
+    "permutacion_media": null,
+    "permutacion_sd": null
+   },
+   "veredicto": "indeterminada",
+   "etiqueta": "secundario exploratorio (sin igualar procesado)"
+  }
+ }
+}
